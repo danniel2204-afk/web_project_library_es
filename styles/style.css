@@ -236,14 +236,13 @@
 .events__image {
   max-width: 100%;
   display: block;
-
 }
 
 .person {
   position: absolute;
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   gap: 10px;
 }
 
@@ -268,8 +267,8 @@
 }
 
 .person_name_tarter {
-  top: 159px;
-  left: 79px;
+  top: 79px;
+  left: 159px;
 }
 
 .person__image {
@@ -278,8 +277,8 @@
 }
 
 .person__image_size_l {
-width: 140px;
-height: 140px;
+  width: 140px;
+  height: 140px;
 }
 
 .person__image_size_m {
@@ -288,7 +287,7 @@ height: 140px;
 }
 
 .person__image_size_s {
- width: 80px;
+  width: 80px;
   height: 80px;
 }
 
