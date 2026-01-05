@@ -356,21 +356,9 @@
 
 .footer__columns {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
-  width: 100%;
-}
-
-.footer__logo_image {
-  width: 58px;
-  height: 80px;
-  display: block;
-  object-fit: contain;
-}
-
-.footer__info {
-  display: flex;
-  gap: 100px;
+  gap: 120px; /* empuja Horario hacia la derecha */
 }
 
 .footer__column {
@@ -379,12 +367,21 @@
   align-items: flex-start;
 }
 
-.footer__column_content_logo {
-  flex-shrink: 0;
+/* LOGO */
+.footer__logo_image {
+  width: 58px;
+  height: 80px;
+  object-fit: contain;
 }
 
+/* HORARIOS */
 .footer__column_content_hours {
-  min-width: 250px;
+  margin-left: auto;
+}
+
+/* REDES */
+.footer__column_content_social {
+  min-width: 200px;
 }
 
 .footer__heading {
@@ -420,7 +417,6 @@
 }
 
 .footer__copyright {
-  margin: 108px 0 0 0;
-  text-align: left;
+  margin-top: 108px;
   font-size: 16px;
 }
