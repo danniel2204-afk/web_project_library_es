@@ -1,5 +1,4 @@
 .page {
-  /* Agrega las propiedades de la clase page aquí */
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
@@ -20,7 +19,6 @@
 }
 
 .nav {
-  /* Agrega las propiedades flex aquí */
   display: flex;
   justify-content: space-between;
 }
@@ -31,7 +29,6 @@
 }
 
 .nav__links {
-  /* Restablece los estilos predeterminados de list aquí */
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -46,7 +43,6 @@
 }
 
 .header__content {
-  /* Agrega las propiedades flex aquí */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -116,7 +112,6 @@
   color: #ffffff;
 }
 
-/* Agrega la regla CSS para tu nueva clase aquí. Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos */
 .staff__cards {
   max-width: 760px;
   margin: 68px auto 0;
@@ -124,8 +119,8 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
-  list-style-type: none; /* elimina viñetas */
-  padding: 0; /* elimina padding izquierdo */
+  list-style-type: none;
+  padding: 0;
 }
 
 .card {
@@ -295,4 +290,134 @@
   text-align: center;
   font-size: 14px;
   margin: 0;
+}
+
+.membership {
+  background-color: #057bf2;
+  color: #ffffff;
+  padding: 100px 80px 140px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 500;
+}
+
+.membership__steps {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  margin: 100px auto 0;
+  max-width: 900px;
+}
+
+.step {
+  flex-basis: 188px;
+  text-align: left;
+}
+
+.step__title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+.step__description {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 10px 0 0;
+}
+
+.footer {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.footer__logo__image {
+  width: 58px;
+  height: 80px;
+  display: block;
+  object-fit: contain;
+}
+
+.footer__info__group {
+  display: flex;
+  gap: 100px;
+}
+
+.footer__column_content_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer_column__heading {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  margin: 0 0 26px;
+}
+
+.footer_list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer_list__item {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.footer_column__link {
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer_social__icon {
+  width: 24px;
+  height: 24px;
+}
+
+.footer_copyright {
+  margin: 108px 0 0 0;
+  text-align: left;
+  font-size: 16px;
 }
