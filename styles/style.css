@@ -78,11 +78,6 @@
   box-sizing: border-box;
 }
 
-.header__link {
-  color: #2f80ed;
-  text-decoration: none;
-}
-
 .header__address {
   margin: 0;
   color: #838383;
@@ -158,6 +153,7 @@
   line-height: 20px;
   color: #838383;
 }
+
 .events {
   padding: 100px 0 120px 80px;
   display: flex;
@@ -197,8 +193,6 @@
 }
 
 .event-info__icon {
-  background-repeat: no-repeat;
-  background-position: center;
   margin-right: 12px;
   width: 24px;
   height: 24px;
@@ -245,22 +239,18 @@
   top: -30px;
   left: 319px;
 }
-
 .person_name_burbidge {
   top: 96px;
   right: 125px;
 }
-
 .person_name_cannon {
   bottom: 18px;
   right: 216px;
 }
-
 .person_name_mitchell {
   bottom: 82px;
   left: 142px;
 }
-
 .person_name_tarter {
   top: 79px;
   left: 159px;
@@ -275,12 +265,10 @@
   width: 140px;
   height: 140px;
 }
-
 .person__image_size_m {
   width: 100px;
   height: 100px;
 }
-
 .person__image_size_s {
   width: 80px;
   height: 80px;
@@ -301,11 +289,11 @@
 }
 
 .membership__title {
-  max-width: 574px;
+  max-width: 674px;
   margin: 0 auto;
   font-size: 44px;
   line-height: 52px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .membership__steps {
@@ -315,11 +303,11 @@
   list-style: none;
   padding: 0;
   margin: 100px auto 0;
-  max-width: 900px;
+  max-width: 1032px;
 }
 
 .step {
-  flex-basis: 188px;
+  flex-basis: 228px;
   text-align: left;
 }
 
@@ -330,12 +318,14 @@
   margin: 0;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
 }
 
 .step__icon {
-  width: 20px;
-  height: 20px;
-  margin-left: 20px;
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
 }
 
 .step__description {
@@ -359,23 +349,16 @@
   width: 100%;
 }
 
-.footer__logo__image {
+.footer__logo-image {
   width: 58px;
   height: 80px;
   display: block;
   object-fit: contain;
 }
 
-.footer__info__group {
+.footer__info {
   display: flex;
   gap: 100px;
-}
-
-.footer__column_content_logo {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  flex-shrink: 0;
 }
 
 .footer__column {
@@ -384,26 +367,30 @@
   align-items: flex-start;
 }
 
-.footer_column__heading {
+.footer__column_content_logo {
+  flex-shrink: 0;
+}
+
+.footer__heading {
   font-size: 20px;
   line-height: 30px;
   font-weight: bold;
   margin: 0 0 26px;
 }
 
-.footer_list {
+.footer__list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.footer_list__item {
+.footer__item {
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 16px;
 }
 
-.footer_column__link {
+.footer__link {
   color: #ffffff;
   text-decoration: none;
   display: flex;
@@ -411,12 +398,12 @@
   gap: 10px;
 }
 
-.footer_social__icon {
+.footer__icon {
   width: 24px;
   height: 24px;
 }
 
-.footer_copyright {
+.footer__copyright {
   margin: 108px 0 0 0;
   text-align: left;
   font-size: 16px;
