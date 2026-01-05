@@ -368,6 +368,10 @@
 }
 
 /* LOGO */
+.footer__logo {
+  display: block;
+}
+
 .footer__logo_image {
   width: 58px;
   height: 80px;
@@ -384,11 +388,19 @@
   min-width: 200px;
 }
 
-.footer__heading {
+.footer__column-heading {
   font-size: 20px;
   line-height: 30px;
   font-weight: bold;
   margin: 0 0 26px;
+}
+
+.footer__column-link {
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .footer__list {
@@ -412,6 +424,11 @@
 }
 
 .footer__icon {
+  width: 16px;
+  height: 16px;
+}
+
+.footer__social-icon {
   width: 16px;
   height: 16px;
 }
